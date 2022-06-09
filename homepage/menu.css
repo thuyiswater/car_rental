@@ -10,13 +10,63 @@
     color: var(--menu-char);
 }
 
-.menu-box {
-    display: block;
-    width: 880px;
-    height: 50px;
+.menu-box {    
+    margin-bottom: 0px;
+    margin-top: 20px;
+    float: left;
+    width: 1535px;
+    height: 101px;
 }
 
-img {
-    width: 85px;
-    height: 70px;
+.box1 {
+    width: 110px;
+    height: 100px;
+    margin-top: 0px;
+}
+
+/* .box2 {
+    margin-top: 45px;
+    width: 80px;
+    height: 23px;
+} */
+
+.box3 {
+    margin-left: 340px;
+    width: 46px;
+    height: 23px;
+    
+}
+
+.box4 {
+    margin-left: 100px;
+    width: 70px;
+    height: 23px;
+}
+
+.box5 {
+    margin-left: 100px;
+    width: 66px;
+    height: 23px;
+}
+
+.box6 {
+    margin-left: 100px;
+    width: 66px;
+    height: 23px;
+}
+
+.box7 {
+    margin-left: 230px;
+    width: 80px;
+    height: 30px;
+}
+
+.box8 {
+    margin-left: 50px;
+    width: 80px;
+    height: 30px;
+    background-color: #FFCD6B;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
