@@ -1,72 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 :root {
     --menu-char: black;
 }
 
 * {
-    font-family: 'Poppins';
-    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
     color: var(--menu-char);
+    margin-top:5px;
+    padding: 0;
 }
 
-.menu-box {    
-    margin-bottom: 0px;
-    margin-top: 20px;
-    float: left;
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {    
+    display: inline;
     width: 1535px;
-    height: 101px;
-}
-
-.box1 {
-    width: 110px;
-    height: 100px;
-    margin-top: 0px;
-}
-
-/* .box2 {
-    margin-top: 45px;
-    width: 80px;
-    height: 23px;
-} */
-
-.box3 {
-    margin-left: 340px;
-    width: 46px;
-    height: 23px;
-    
-}
-
-.box4 {
+    height: 200px;
     margin-left: 100px;
-    width: 70px;
-    height: 23px;
 }
 
-.box5 {
-    margin-left: 100px;
-    width: 66px;
-    height: 23px;
+#menu #box1 {
+    margin-left: 400px;
 }
 
-.box6 {
-    margin-left: 100px;
-    width: 66px;
-    height: 23px;
+#menu #logo{
+    width: 120px;
+    height: 50px;
 }
 
-.box7 {
-    margin-left: 230px;
-    width: 80px;
-    height: 30px;
+#menu #box5 {
+    margin-left: 250px;
 }
 
-.box8 {
-    margin-left: 50px;
-    width: 80px;
-    height: 30px;
+#menu #box6 {
     background-color: #FFCD6B;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    opacity: 75%;
+    width: 200px;
+    height: 100px;
 }
+
+
+
+/* #image {
+    position: absolute;
+    width: 1519px;
+    height: 680px;
+    left: 0px;
+    top: 139px;
+    background-repeat: no-repeat;
+    background-image: url(https://cimg1.ibsrv.net/ibimg/hgm/2000x1125-1/100/402/2013-aston-martin-db9_100402669.jpg);
+}
+
+.search-bar {
+    position: absolute;
+    background-color: #FFCD6B;
+    width: 488px;
+    height: 500px;
+    margin-left: 30px;
+    opacity: 75%;
+}
+
+.bar1 {
+    margin-top: 200px;
+} */
