@@ -39,31 +39,30 @@
 #menu #box6 {
     background-color: #FFCD6B;
     opacity: 75%;
-    width: 200px;
+    width: 300px;
     height: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 
 
-/* #image {
+#image {
     position: absolute;
     width: 1519px;
     height: 680px;
     left: 0px;
-    top: 139px;
+    top: 130px;
     background-repeat: no-repeat;
     background-image: url(https://cimg1.ibsrv.net/ibimg/hgm/2000x1125-1/100/402/2013-aston-martin-db9_100402669.jpg);
 }
 
-.search-bar {
-    position: absolute;
+.search-box {
     background-color: #FFCD6B;
-    width: 488px;
-    height: 500px;
+    width: 470px;
+    height: 480px;
     margin-left: 30px;
     opacity: 75%;
+    margin-top: 145px;
 }
 
-.bar1 {
-    margin-top: 200px;
-} */
